@@ -683,15 +683,14 @@ body {
     box-sizing: border-box;
   outline: none;
     background-color: #101010;
-}
-
-.social-icon {
-  margin-top: 20px;
-  display: inline-block;
-  margin-left: 5px;
-
-  border-radius: 50px;
-
+  }
+  
+  .social-icon {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 5px;
+  
+    border-radius: 50px;
 }
 
 .social-icon i {
@@ -1285,16 +1284,16 @@ li {
     opacity: 0;
   }
 
-        10%,
-        90% {
-          transform: translateX(0);
-          opacity: 1;
-        }
+                10%,
+                90% {
+                  transform: translateX(0);
+                  opacity: 1;
+                }
 
-        100% {
-          transform: translateY(100%);
-          opacity: 0;
-        }
+                100% {
+                  transform: translateY(100%);
+                  opacity: 0;
+                }
 }
 
 @media screen and (min-width: 500px) {
@@ -1302,18 +1301,18 @@ li {
     max-width: 480px;
   }
 
-        .container-details {
-          max-width: 480px;
-          /* Tambahkan max-width di sini */
-        }
+                .container-details {
+                  max-width: 480px;
+                  /* Tambahkan max-width di sini */
+                }
 
-        #tabs {
-          max-width: 480px;
-          margin: 0 auto;
-          /* Membuat container berada di tengah halaman */
-          background-color: #101010;
-          display: flex;
-        }
+                #tabs {
+                  max-width: 480px;
+                  margin: 0 auto;
+                  /* Membuat container berada di tengah halaman */
+                  background-color: #101010;
+                  display: flex;
+                }
 
 }
 
@@ -1324,11 +1323,11 @@ li {
     width: 100%;
   }
 
-        .circle-text {
-          text-align: center;
-          position: relative;
-          top: -20em;
-          z-index: 20;
-          margin-bottom: -20em;
-        }
+                .circle-text {
+                  text-align: center;
+                  position: relative;
+                  top: -20em;
+                  z-index: 20;
+                  margin-bottom: -20em;
+                }
 }
