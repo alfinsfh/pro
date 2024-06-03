@@ -22,7 +22,8 @@ body:focus {
 
 :root {
   --gold-color: #FACA78;
-  --dark-bg: #101010 --medium-bg: #794A3A;
+  --dark-bg: #000000;
+  --medium-bg: #794A3A;
   --light-bg: #e5e5e5;
   --grey-text: #794A3A;
   --white: #794A3A;
@@ -35,6 +36,7 @@ body {
     font-family: Open Sans, Helvetica, sans-serif;
     background-color: #ffff;
     outline: none;
+    background-color: #101010;
     /* Menghilangkan efek focus ring saat tombol dalam fokus */
 }
 
